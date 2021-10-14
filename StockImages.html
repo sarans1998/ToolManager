@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tool Manager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="far fa-envelope d-flex align-items-center">
+                    <a href="mailto:srancse@gmail.com">toolmanager@gmail.com</a>
+                </i>
+                <i class="fas fa-mobile-alt d-flex align-items-center ml-4">
+                    <span>8248176570</span>
+                </i>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+            <div class="logo">
+                <h1 class="text-light">
+                    <a href="index.html">Tool<span>Manager</span></a>
+                </h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contact</a>
+                    </li>
+                </ul>
+                <i class="fas fa-bars mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <section id="content-title">
+        <div class="container">
+            <div class="content">Stock Images</div>
+        </div>
+    </section>
+
+
+
+
+    <section id="tools" class="tools">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+
+            <a href="https://iconify.design/" class="tool-box" target="blank">
+                <!-- <span class="iconify" data-icon="ri:store-line" style="color: #ffbb2c;"></span> -->
+                <h3><span>Iconify icons</span> - collection includes over 100,000 icons from popular fonts and emoji sets</h3>
+            </a>
+            <a href="https://www.flaticon.com/" class="tool-box" target="blank">
+                <!-- <span class="iconify" data-icon="ri:store-line" style="color: #ffbb2c;"></span> -->
+                <h3><span>Flat Icon</span> - Download free icons and stickers for your projects</h3>
+            </a>
+            <a href="https://www.iconfinder.com/" class="tool-box" target="blank">
+                <!-- <span class="iconify" data-icon="ri:store-line" style="color: #ffbb2c;"></span> -->
+                <h3><span>Icon Finder</span> - Search through 5,819,319 icons and illustrations</h3>
+            </a>
+            <a href="https://fontawesome.com/" class="tool-box" target="blank">
+                <!-- <span class="iconify" data-icon="ri:store-line" style="color: #ffbb2c;"></span> -->
+                <h3><span>Font Awesome</span> - Get vector icons and social logos on your website with Font Awesome</h3>
+            </a>
+            <a href="https://boxicons.com/" class="tool-box" target="blank">
+                <!-- <span class="iconify" data-icon="ri:store-line" style="color: #ffbb2c;"></span> -->
+                <h3><span>Box Icons</span> - Simple vector icons carefully crafted for designers & developers</h3>
+            </a>
+
+        </div>
+    </section>
+
+
+
+    <section id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="credits">Designed by <span>Saran</span></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js "></script>
+
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        $('.mobile-nav-toggle').on('click', function() {
+            $('.navbar').toggleClass('navbar-mobile');
+            $('.navbar i').toggleClass('tm-close');
+            $('.navbar i').toggleClass('fa-times');
+        });
+    </script>
+
+</body>
+
+</html>
